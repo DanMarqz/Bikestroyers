@@ -19,7 +19,12 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 2.5px solid #fff;
+    border: 2.5px solid rgb(0, 0, 0);
+    filter:brightness(0.8);
+}
+
+.info-staff img:hover {
+    filter:brightness(1);
 }
 
 @media (min-width: 480px) {
