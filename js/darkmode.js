@@ -2,9 +2,9 @@ function darky(){
     var darkmode = document.getElementById('dark');
     
     if (darkmode.checked == true) {
-        document.getElementById("css").href = 'css/estilo.css';
-    } else {
         document.getElementById("css").href = 'css/estilo-dark.css';
+    } else {
+        document.getElementById("css").href = 'css/estilo.css';
     }
 }
 
